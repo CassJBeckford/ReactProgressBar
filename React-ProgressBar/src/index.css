@@ -1,0 +1,26 @@
+button{
+    display: block;
+    background-color: #ff89f3;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding: 10px 22px 10px 22px;
+    margin: 35px 0 35px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: white;
+    color: #ff89f3;
+    border-style: solid;
+    border-color: ff89f3;
+}
+
+button:active{
+    background-color: #ff89f3;
+    color: white;
+}

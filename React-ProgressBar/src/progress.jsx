@@ -1,30 +1,21 @@
-import { useState } from 'react'
 import './progress.css'
 
 export default function ProgressBar(props) {
-  const [progress, setProgress] = useState(0);
-
-  function handleIncreaseButton(){
-    if(progress > 100)  { 
-      setProgress(progress + 10)
-    }
-  }
 
   return (
   <div>
     <h1>Progress Bar</h1>
-    <div style={{ width: "100%", backgroundColor: "#e0e0e0", borderRadius: "4px" }}>
+    <div style={{ width: "100%", backgroundColor: "#f5f5f5", borderRadius: "4px" }}>
     <div
       style={{
         width: `${props.progress}%`,
-        backgroundColor: "#007bff",
+        backgroundColor: "#ff89f3",
         height: "24px",
         borderRadius: "4px",
       }}
     ></div>
     </div>
     <p>{props.progress}% Complete</p>
-    <button onClick={handleIncreaseButton}> + </button>
   </div>
   );
 }

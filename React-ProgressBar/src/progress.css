@@ -1,0 +1,6 @@
+h1, p{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    color: #ff89f3;
+}
